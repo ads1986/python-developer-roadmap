@@ -55,9 +55,22 @@ To have the control of what I learned and how many times I visited a specific to
 
 ## 3. Advanced Topics
 
-- Regular expressions
+- OOP
+- Classes
+- Dunder
+- Methods
+- Inheritance
 - Decorators
-- Lambdas
+- Functional Programming
+- Lambda Functions
+- Map, filter, zip, reduce
+- Erros
+- Error Handling: try, except
+- File I/O
+- Regex
+- Import
+- Virtual Environments
+- Debugging
 - Iterators
 
 ### 3.1. Modules
@@ -102,6 +115,17 @@ To have the control of what I learned and how many times I visited a specific to
 - doctest
 - nose
 
+## 8. Machine Learning/Data Science
 
-
-
+- Tensorflow
+- PyTorch
+- Keras
+- Scikit-learn
+- Numpy
+- Pandas
+- ciPy
+- Matplotlib
+- Seaborn
+- Neural Networks
+- Machine Learning Algorithms
+- Data
