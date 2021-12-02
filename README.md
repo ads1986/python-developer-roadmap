@@ -12,11 +12,36 @@ To have the control of what I learned and how many times I visited a specific to
 
 ## 1. Learn the basics
 
+- How Python Works
+- Python Interpreter
+- Python 2 and Python 3 (diferences)
+- Running Python Code
+
+### 1.1. Code Editors
+
+- Vim
+- VSCode
+- Sublime Text
+- PyCharm
+- Atom
+- Juypter Notebook
+- Google Colab
+
+### 1.2. Language Basics
+
+- Variables
+- Data Types and their Operations and Use
+- Numbers, Operators, Operator Precedence
+- Type Conversion
+- Identation
+- Logical Operators
+- Conditionals - If, Else, Else if, Truthy, Falsey
+- Loops: for, while, loop control statements (break, continue, etc)
+- Functions: scope, parameters, arguments, return
+- Builtin Functions
 - Basic Syntax
-- Variables and Data Types
-- Conditionals
 - Type Casting, Exceptions
-- Functions, Builtin Functions
+- Commenting: single-line, multi-line, docstrings 
 - Lists, Tuples, Sets, Dictionaries
 
 ## 2. Datastructures & Algorithms
