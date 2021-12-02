@@ -1,6 +1,6 @@
-# python-developer-roadmap
+# Python Developer Roadmap
 
-When starting in a Python Development career, seems to be obvious that we need start from the language basis and fundamentals, but is not simple as that. For this reason, i started to search more for any roadmap or guideline that could be a good starting point, so I founded two excelente articles : [Python Developer Roadmap in 2021](https://dev.to/hb/python-developer-roadmap-in-2021-2bmo) and [Python Developer](https://roadmap.sh/python).
+When starting in a Python Development career, seems to be obvious that we need start from the language basis and fundamentals, but is not simple as that. For this reason, i started to search more for any roadmap or guideline that could be a good starting point, so I found two excelente articles : [Python Developer Roadmap in 2021](https://dev.to/hb/python-developer-roadmap-in-2021-2bmo) and [Python Developer](https://roadmap.sh/python).
 
 Been a experienced Java developer, I decided to share here all my learning jorning with Python. I think my learning curve would be a little bit shorter thant someone starting programing now, but a think I could help who is in the same learning path.
 
