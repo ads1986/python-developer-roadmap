@@ -12,19 +12,17 @@ To have the control of what I learned and how many times I visited a specific to
 
 ## 2. Learn the basics
 
-- [How Python Works](https://towardsdatascience.com/how-does-python-work-6f21fd197888)
+- [[1]How Python Works](https://towardsdatascience.com/how-does-python-work-6f21fd197888)
 
   When we write a Python code in a file with .py extension, the compiler (example: cpython) translate this code and generate a bytecode (file with extension .pyc or .pyo) that will be interpreted by a Virtual Machine (PVM) that is also known Interpreter.
 
   Python is a Dynamic Typed language, so we do not define types to variables and the values  can change his type during the code execution. The the code is Interpreted (by PVM) and in runtime will report any erro related a incorret value atribution or any other problem in the code.
 
-- Python Interpreter
+- [1]Python Interpreter(https://stackoverflow.com/questions/17130975/python-vs-cpython)
 
   The Python Language was create by [Guido Van Rossum](https://pt.wikipedia.org/wiki/Guido_van_Rossum) that implemented cpython [cpython](https://www.python.org/search/?q=cpython), write in C Language, is the original Python implementation and have all is need to run a Python app. Cpython is not  just a compiler, it has in his process a Compilation phase hat create the bytecode and an Interpreter (or PVM) that will intepretate the bytecode in a [evaluation loop](https://sites.google.com/a/nu.edu.pk/hci-060129/lectures-1/execution-evaluation-loop).
 
-- Python 2 and Python 3 (diferences)
-
-  
+- [[1]Python 2 vs Python 3](https://www.interviewbit.com/blog/difference-between-python-2-and-3/)
 
 - Running Python Code
 
