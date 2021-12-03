@@ -24,8 +24,6 @@ To have the control of what I learned and how many times I visited a specific to
 
 - [[1]Python 2 vs Python 3](https://www.interviewbit.com/blog/difference-between-python-2-and-3/)
 
-- [[]Running Python Code]()
-
 ### 2.1. Code Editors
 
 - Vim
