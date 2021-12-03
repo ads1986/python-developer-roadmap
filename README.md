@@ -20,9 +20,12 @@ To have the control of what I learned and how many times I visited a specific to
 
 - Python Interpreter
 
-  The Python Language was create by [Guido Van Rossum](https://pt.wikipedia.org/wiki/Guido_van_Rossum) that implemented cpython [cpython](https://www.python.org/search/?q=cpython), write in C Language, is the original Python implementation and have all is need to run a Python app. Cpython is not  just a compiler, it has in his process an Assembler that create the bytecode and an Interpreter (or PVM) that will intepretate and run the bytecode.
+  The Python Language was create by [Guido Van Rossum](https://pt.wikipedia.org/wiki/Guido_van_Rossum) that implemented cpython [cpython](https://www.python.org/search/?q=cpython), write in C Language, is the original Python implementation and have all is need to run a Python app. Cpython is not  just a compiler, it has in his process a Compilation phase hat create the bytecode and an Interpreter (or PVM) that will intepretate the bytecode in a [evaluation loop](https://sites.google.com/a/nu.edu.pk/hci-060129/lectures-1/execution-evaluation-loop).
 
 - Python 2 and Python 3 (diferences)
+
+  
+
 - Running Python Code
 
 ### 2.1. Code Editors
@@ -63,6 +66,7 @@ To have the control of what I learned and how many times I visited a specific to
 
 ## 4. Advanced Topics
 
+- Virtual Environments
 - OOP
 - Classes
 - Dunder
@@ -77,7 +81,6 @@ To have the control of what I learned and how many times I visited a specific to
 - File I/O
 - Regex
 - Import
-- Virtual Environments
 - Debugging
 - Iterators
 
