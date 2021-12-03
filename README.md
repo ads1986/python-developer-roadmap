@@ -1,6 +1,6 @@
 # Python Developer Roadmap
 
-When starting in a Python Development career, seems to be obvious that we need start from the language basis and fundamentals, but is not simple as that. For this reason, i started to search more for any roadmap or guideline that could be a good starting point, so I found this two excelente articles [Python Developer Roadmap in 2021](https://dev.to/hb/python-developer-roadmap-in-2021-2bmo) and [Python Developer](https://roadmap.sh/python) that I'll use to guide my studies.
+When starting in a Python Development career, seems to be obvious that we need start from the language basis and fundamentals, but is not simple as that. For this reason, I started to search more for any roadmap or guideline that could be a good starting point :), so I found this two excellent articles [Python Developer Roadmap in 2021](https://dev.to/hb/python-developer-roadmap-in-2021-2bmo) and [Python Developer](https://roadmap.sh/python) that I'll use to guide my studies.
 
 Been a experienced Java developer, I decided to share here all my learning journey with Python. I think my learning curve would be a little bit shorter thant someone starting programing now, but a think I could help who is in the same learning path.
 
@@ -10,14 +10,14 @@ To have the control of what I learned and how many times I visited a specific to
 
 - [[1] Some Topic](https://github.com/ads1986/algorithms-and-datastructure/blob/main/src/main/java/com/algorithms/BFS.java)
 
-## 1. Learn the basics
+## 2. Learn the basics
 
 - How Python Works
 - Python Interpreter
 - Python 2 and Python 3 (diferences)
 - Running Python Code
 
-### 1.1. Code Editors
+### 2.1. Code Editors
 
 - Vim
 - VSCode
@@ -27,7 +27,7 @@ To have the control of what I learned and how many times I visited a specific to
 - Juypter Notebook
 - Google Colab
 
-### 1.2. Language Basics
+### 2.2. Language Basics
 
 - Variables
 - Data Types and their Operations and Use
@@ -44,7 +44,7 @@ To have the control of what I learned and how many times I visited a specific to
 - Commenting: single-line, multi-line, docstrings 
 - Lists, Tuples, Sets, Dictionaries
 
-## 2. Datastructures & Algorithms
+## 3. Datastructures & Algorithms
 
 - Arrays and Linked Lists
 - Heaps, Stacks and Queues
@@ -53,7 +53,7 @@ To have the control of what I learned and how many times I visited a specific to
 - Recursion
 - Sorting Algorithms
 
-## 3. Advanced Topics
+## 4. Advanced Topics
 
 - OOP
 - Classes
@@ -73,49 +73,49 @@ To have the control of what I learned and how many times I visited a specific to
 - Debugging
 - Iterators
 
-### 3.1. Modules
+### 4.1. Modules
 
 - Builtin
 - Custom
 
-## 4. Version Control Systems
+## 5. Version Control Systems
 
 - Basic Git Usage
 
-## 5. Repo Hosting Services
+## 6. Repo Hosting Services
 
 - Github
 - Gitlab
 - BitBucket
 - 
-## 6. Package Managers
+## 7. Package Managers
 
 - PyPI
 - Pip
 
-## 7. Learn a Framework
+## 8. Learn a Framework
 
-### 7.1. Sinchronous
+### 8.1. Synchronous
 
 - Django
 - Flask
 - Pyrami
 
-### 7.2. Asynchronous
+### 8.2. Asynchronous
 
 - aiohttp
 - Sanic
 - gevent
 - Tornado
 
-## 8. Testing your Apps
+## 9. Testing your Apps
 
 - unittest / pyUnit
 - pytest
 - doctest
 - nose
 
-## 8. Machine Learning/Data Science
+## 10. Machine Learning/Data Science
 
 - Tensorflow
 - PyTorch
