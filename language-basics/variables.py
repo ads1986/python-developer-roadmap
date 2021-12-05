@@ -1,3 +1,4 @@
+# Font : https://www.w3schools.com/python/python_variables.asp
 x = 5
 y = "John"  # Same as 'John'
 print(x)
