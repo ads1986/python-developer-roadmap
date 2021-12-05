@@ -39,13 +39,14 @@ To have the control of what I learned and how many times I visited a specific to
 
 ### 2.1. Choose a Code Editor
 
-- Vim
-- VSCode
-- Sublime Text
-- [PyCharm](https://www.jetbrains.com/pt-br/pycharm/)
-- Atom
-- Juypter Notebook
-- Google Colab
+   Because of my extensive use of Intellij IDE, I decided to choose the [PyCharm](https://www.jetbrains.com/pt-br/pycharm/), but we have so many options of Code Editors :    
+
+  - [Vim](https://www.vim.org/)
+  - [VSCode](https://code.visualstudio.com/docs/languages/python)
+  - [Sublime Text](https://www.sublimetext.com/)
+  - [Atom](https://atom.io/)
+  - [Juypter Notebook](https://jupyter.org/)
+  - [Google Colab](https://colab.research.google.com/?hl=pt_BR)
 
 ### 2.2. Language Basics
 
