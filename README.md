@@ -39,7 +39,7 @@ To have the control of what I learned and how many times I visited a specific to
 
 ### 2.1. Choose a Code Editor
 
-   Because of my extensive use of Intellij IDE, I decided to choose the [PyCharm](https://www.jetbrains.com/pt-br/pycharm/), but we have so many options of Code Editors :    
+   Because of my extensive use of [Intellij IDE](https://www.jetbrains.com/pt-br/idea/), I decided to choose the [PyCharm](https://www.jetbrains.com/pt-br/pycharm/), but we have so many options of Code Editors :    
 
   - [Vim](https://www.vim.org/)
   - [VSCode](https://code.visualstudio.com/docs/languages/python)
