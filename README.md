@@ -27,13 +27,14 @@ To have the control of what I learned and how many times I visited a specific to
 - [1][Running Python Code](https://www.learnpython.org/en/Hello%2C_World%21)
 
   a) Install Python ([click here to download](https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe)) 
+  
   b) Create the file script.py and insert the code :
      ```bash
         print("This line will be printed.")
      ```
-  c) Run the code
+  c) Run the command bellow :
      ```bash
-        py script.py
+        $ py script.py
      ```
 
 ### 2.1. Code Editors
