@@ -37,12 +37,12 @@ To have the control of what I learned and how many times I visited a specific to
         $ py script.py
      ```
 
-### 2.1. Code Editors
+### 2.1. Choose a Code Editor
 
 - Vim
 - VSCode
 - Sublime Text
-- PyCharm
+- [PyCharm](https://www.jetbrains.com/pt-br/pycharm/)
 - Atom
 - Juypter Notebook
 - Google Colab
