@@ -8,33 +8,45 @@ Been a experienced Java developer, I decided to share here all my learning journ
 
 To have the control of what I learned and how many times I visited a specific topic, I include a number inside square brackets before the topic`s name. This number will be increased every time I revisited the topic. If the learning generate any artefact, a link will be included in the topic as in the example below :
 
-- [[1] Some Topic](https://github.com/ads1986/algorithms-and-datastructure/blob/main/src/main/java/com/algorithms/BFS.java)
+- [1][Some Topic](https://github.com/ads1986/algorithms-and-datastructure/blob/main/src/main/java/com/algorithms/BFS.java)
 
 ## 2. Learn the basics
 
-- [[1]How Python Works](https://towardsdatascience.com/how-does-python-work-6f21fd197888)
+- [1][How Python Works](https://towardsdatascience.com/how-does-python-work-6f21fd197888)
 
   When we write a Python code in a file with .py extension, the compiler (example: cpython) translate this code and generate a bytecode (file with extension .pyc or .pyo) that will be interpreted by a Virtual Machine (PVM) that is also known Interpreter.
 
   Python is a Dynamic Typed language, so we do not define types to variables and the values  can change his type during the code execution. The the code is Interpreted (by PVM) and in runtime will report any erro related a incorret value atribution or any other problem in the code.
 
-- [1]Python Interpreter(https://stackoverflow.com/questions/17130975/python-vs-cpython)
+- [1][Python Interpreter](https://stackoverflow.com/questions/17130975/python-vs-cpython)
 
   The Python Language was create by [Guido Van Rossum](https://pt.wikipedia.org/wiki/Guido_van_Rossum) that implemented cpython [cpython](https://www.python.org/search/?q=cpython), write in C Language, is the original Python implementation and have all is need to run a Python app. Cpython is not  just a compiler, it has in his process a Compilation phase hat create the bytecode and an Interpreter (or PVM) that will intepretate the bytecode in a [evaluation loop](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop).
 
-- [[1]Python 2 vs Python 3](https://www.interviewbit.com/blog/difference-between-python-2-and-3/)
+- [1][Python 2 vs Python 3](https://www.interviewbit.com/blog/difference-between-python-2-and-3/)
 
-- [Running Python Code]()
+- [1][Running Python Code](https://www.learnpython.org/en/Hello%2C_World%21)
 
-### 2.1. Code Editors
+  a) Install Python ([click here to download](https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe)) 
+  
+  b) Create the file script.py and insert the code :
+     ```bash
+        print("This line will be printed.")
+     ```
+  c) Run the command bellow :
+     ```bash
+        $ py script.py
+     ```
 
-- Vim
-- VSCode
-- Sublime Text
-- PyCharm
-- Atom
-- Juypter Notebook
-- Google Colab
+### 2.1. Choose a Code Editor
+
+   Because of my extensive use of [Intellij IDE](https://www.jetbrains.com/pt-br/idea/), I decided to choose the [PyCharm](https://www.jetbrains.com/pt-br/pycharm/), but we have so many options of Code Editors :    
+
+  - [Vim](https://www.vim.org/)
+  - [VSCode](https://code.visualstudio.com/docs/languages/python)
+  - [Sublime Text](https://www.sublimetext.com/)
+  - [Atom](https://atom.io/)
+  - [Juypter Notebook](https://jupyter.org/)
+  - [Google Colab](https://colab.research.google.com/?hl=pt_BR)
 
 ### 2.2. Language Basics
 
