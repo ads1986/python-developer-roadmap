@@ -50,7 +50,7 @@ To have the control of what I learned and how many times I visited a specific to
 
 ### 2.2. Language Basics
 
-- [1][Variables](https://www.w3schools.com/python/python_variables.asp)
+- [1][Variables](https://github.com/ads1986/python-developer-roadmap/blob/main/language-basics/variables.py)
 - Data Types and their Operations and Use
 - Numbers, Operators, Operator Precedence
 - Type Conversion
