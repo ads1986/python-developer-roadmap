@@ -1,4 +1,4 @@
-Font : https://www.w3schools.com/python/python_datatypes.asp
+# Font: https://www.w3schools.com/python/python_datatypes.asp
 
 #int
 x = 5
