@@ -60,7 +60,7 @@ print(x)
 print()
 
 #frozenset
-x = frozenset({"apple", "banana", "cherry"}) # The set become immutable
+x = frozenset({"apple", "banana", "cherry"}) # To make set immutable
 print(type(x))
 print(x)
 print()
@@ -72,8 +72,20 @@ x = False
 print(x)
 print()
 
-#bytes
-x = b"Hello"
+#bytearray
+x = bytearray(5)
 print(type(x))
 print(x)
+print()
 
+#bytes
+x = b"Hello" # Immutable version of bytearray
+print(type(x))
+print(x)
+print()
+
+#memoryview
+x = memoryview(bytes(5))
+print(type(x))
+print(x)
+print()
