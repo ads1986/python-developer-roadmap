@@ -52,7 +52,7 @@ To have the control of what I learned and how many times I visited a specific to
 
 - [1][Variables](https://github.com/ads1986/python-developer-roadmap/blob/main/language-basics/variables.py)
 - [1][Data Types and their Operations and Use](https://github.com/ads1986/python-developer-roadmap/blob/main/language-basics/datatypes.py)
-- Numbers, Operators, Operator Precedence
+- [1]Numbers, Operators, Operator Precedence(https://github.com/ads1986/python-developer-roadmap/blob/main/language-basics/numbers-operators-precedence.py)
 - Type Conversion
 - Identation
 - Logical Operators
