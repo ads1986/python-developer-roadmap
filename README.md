@@ -39,14 +39,15 @@ To have the control of what I learned and how many times I visited a specific to
 
 ### 2.1. Choose a Code Editor
 
-   Because of my extensive use of [Intellij IDE](https://www.jetbrains.com/pt-br/idea/), I decided to choose the [PyCharm](https://www.jetbrains.com/pt-br/pycharm/), but we have so many options of Code Editors :    
+   Because of my extensive use of [Intellij IDE](https://www.jetbrains.com/pt-br/idea/), I decided to choose the [1][PyCharm](https://www.jetbrains.com/pt-br/pycharm/), but we have so many options of Code Editors :    
 
-  - [Vim](https://www.vim.org/)
-  - [VSCode](https://code.visualstudio.com/docs/languages/python)
-  - [Sublime Text](https://www.sublimetext.com/)
-  - [Atom](https://atom.io/)
-  - [Juypter Notebook](https://jupyter.org/)
-  - [Google Colab](https://colab.research.google.com/?hl=pt_BR)
+  - [1][Notepad++](https://notepad-plus-plus.org)
+  - [1][Vim](https://www.vim.org/)
+  - [1][VSCode](https://code.visualstudio.com/docs/languages/python)
+  - [1][Sublime Text](https://www.sublimetext.com/)
+  - [1][Atom](https://atom.io/)
+  - [1][Juypter Notebook](https://jupyter.org/)
+  - [1][Google Colab](https://colab.research.google.com/?hl=pt_BR)
 
 ### 2.2. Language Basics
 
