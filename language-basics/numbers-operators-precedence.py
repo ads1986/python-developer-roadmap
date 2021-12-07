@@ -1,6 +1,7 @@
 #Font1 : https://www.w3schools.com/python/python_numbers.asp
 #Font2 : https://www.w3schools.com/python/python_operators.asp
 #Font3 : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators
+#Font4 : https://techvidvan.com/tutorials/python-operator-precedence/
 
 print("Numbers")
 print()
@@ -195,9 +196,9 @@ print("y ^ x")
 print(y ^ x) # XOR
 print()
 
-print("y ~ x")
-print(y ~ x) # NOT
-print()
+#print("y ~ x")
+#print(y ~ x) # NOT
+#print()
 
 print("y << x")
 print(y << x) # Zero fill left shift
@@ -253,3 +254,19 @@ print()
 print("a is not b") # Compare only if is the same object, with se same memory localtion. To compare the object content we use ==
 print(a is b)
 print()
+
+print("Operators Precedence")
+print()
+
+print("Example")
+x = ((((6+4)*2)-10)//2)-4*2
+print(x)
+
+print("Precedence Rule - PEMDAS")
+
+print("(6+4) = 10")
+print("(10*2) = 20")
+print("(20-10) = 10")
+print("(10//2) = 5")
+print("4*2 = 8")
+print("5-8 = -3")
