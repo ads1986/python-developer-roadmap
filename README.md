@@ -63,16 +63,7 @@ To have the control of what I learned and how many times I visited a specific to
 - Exceptions
 - Commenting: single-line, multi-line, docstrings 
 
-## 3. Datastructures & Algorithms
-
-- Arrays and Linked Lists
-- Heaps, Stacks and Queues
-- Hash Tables
-- Binary Search Trees
-- Recursion
-- Sorting Algorithms
-
-## 4. Advanced Topics
+## 3. Advanced Topics
 
 - Virtual Environments
 - OOP
@@ -93,49 +84,49 @@ To have the control of what I learned and how many times I visited a specific to
 - Iterators
 - Await Expression
 
-### 4.1. Modules
+### 3.1. Modules
 
 - Builtin
 - Custom
 
-## 5. Version Control Systems
+## 4. Version Control Systems
 
 - Basic Git Usage
 
-## 6. Repo Hosting Services
+## 5. Repo Hosting Services
 
 - Github
 - Gitlab
 - BitBucket
 - 
-## 7. Package Managers
+## 6. Package Managers
 
 - PyPI
 - Pip
 
-## 8. Learn a Framework
+## 7. Learn a Framework
 
-### 8.1. Synchronous
+### 7.1. Synchronous
 
 - Django
 - Flask
 - Pyrami
 
-### 8.2. Asynchronous
+### 7.2. Asynchronous
 
 - aiohttp
 - Sanic
 - gevent
 - Tornado
 
-## 9. Testing your Apps
+## 8. Testing your Apps
 
 - unittest / pyUnit
 - pytest
 - doctest
 - nose
 
-## 10. Machine Learning/Data Science
+## 9. Machine Learning/Data Science
 
 - Tensorflow
 - PyTorch
