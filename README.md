@@ -60,10 +60,8 @@ To have the control of what I learned and how many times I visited a specific to
 - Loops: for, while, loop control statements (break, continue, etc)
 - Functions: scope, parameters, arguments, return
 - Builtin Functions
-- Basic Syntax
-- Type Casting, Exceptions
+- Exceptions
 - Commenting: single-line, multi-line, docstrings 
-- Lists, Tuples, Sets, Dictionaries
 
 ## 3. Datastructures & Algorithms
 
