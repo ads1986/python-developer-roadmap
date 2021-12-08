@@ -56,7 +56,7 @@ To have the control of what I learned and how many times I visited a specific to
 - [1][Numbers, Operators, Operator Precedence](https://github.com/ads1986/python-developer-roadmap/blob/main/language-basics/numbers-operators-precedence.py)
 - [1][Type Conversion](https://github.com/ads1986/python-developer-roadmap/edit/main/language-basics/type-conversion.py)
 - [1][Identation](https://github.com/ads1986/python-developer-roadmap/edit/main/language-basics/identation.py)
-- Conditionals - If, Else, Else if, Truthy, Falsey
+- [1][Conditionals - If, Else, Else if, Truthy, Falsey](https://github.com/ads1986/python-developer-roadmap/blob/main/language-basics/conditionals.py)
 - Loops: for, while, loop control statements (break, continue, etc)
 - Functions: scope, parameters, arguments, return
 - Builtin Functions
