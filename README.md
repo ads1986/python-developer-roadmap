@@ -65,7 +65,6 @@ To have the control of what I learned and how many times I visited a specific to
 
 ## 3. Advanced Topics
 
-- Virtual Environments
 - OOP
 - Classes
 - Dunder
@@ -83,7 +82,8 @@ To have the control of what I learned and how many times I visited a specific to
 - Debugging
 - Iterators
 - Await Expression
-
+- Virtual Environments
+- 
 ### 3.1. Modules
 
 - Builtin
