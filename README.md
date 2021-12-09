@@ -89,44 +89,34 @@ To have the control of what I learned and how many times I visited a specific to
 - Builtin
 - Custom
 
-## 4. Version Control Systems
-
-- Basic Git Usage
-
-## 5. Repo Hosting Services
-
-- Github
-- Gitlab
-- BitBucket
-- 
-## 6. Package Managers
+## 4. Package Managers
 
 - PyPI
 - Pip
 
-## 7. Learn a Framework
+## 5. Learn a Framework
 
-### 7.1. Synchronous
+### 5.1. Synchronous
 
 - Django
 - Flask
 - Pyrami
 
-### 7.2. Asynchronous
+### 5.2. Asynchronous
 
 - aiohttp
 - Sanic
 - gevent
 - Tornado
 
-## 8. Testing your Apps
+## 6. Testing your Apps
 
 - unittest / pyUnit
 - pytest
 - doctest
 - nose
 
-## 9. Machine Learning/Data Science
+## 7. Machine Learning/Data Science
 
 - Tensorflow
 - PyTorch
