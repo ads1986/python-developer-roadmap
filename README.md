@@ -59,7 +59,7 @@ To have the control of what I learned and how many times I visited a specific to
 - [1][Conditionals - If, Else, Else if, Truthy, Falsey](https://github.com/ads1986/python-developer-roadmap/blob/main/language-basics/conditionals.py)
 - [1][Loops: for, while, loop control statements (break, continue, etc)](https://github.com/ads1986/python-developer-roadmap/blob/main/language-basics/loops.py)
 - [1][Functions: scope, parameters, arguments, return](https://github.com/ads1986/python-developer-roadmap/blob/main/language-basics/functions.py)
-- [1](Builtin Functions)(https://github.com/ads1986/python-developer-roadmap/blob/main/language-basics/builtin-functions.py)
+- [1][Builtin Functions](https://github.com/ads1986/python-developer-roadmap/blob/main/language-basics/builtin-functions.py)
 - Exceptions
 - Commenting: single-line, multi-line, docstrings 
 
