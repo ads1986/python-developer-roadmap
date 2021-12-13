@@ -65,8 +65,8 @@ To have the control of what I learned and how many times I visited a specific to
 
 ## 3. Advanced Topics
 
-- OOP
-- Classes
+- [1][OOP](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/oop.py)
+- [1][Classes](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/classes.py)
 - Dunder
 - Methods
 - Inheritance
