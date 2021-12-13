@@ -1,91 +1,69 @@
-# Font: https://www.w3schools.com/python/python_datatypes.asp
+#Font: https://www.w3schools.com/python/python_classes.asp
 
-#int
-x = 5
-print(type(x))
+print("#Creating a Class")
+
+class MyClass:
+    x = 5
 print()
 
-#string
-x = "Hello World"
-print(type(x))
+print("#Creating an Object")
+
+p1 = MyClass()
+print(p1.x)
 print()
 
-#float
-x = 20.5
-print(type(x))
+print("#__init__()")
+
+class Person:
+    def __init__(self, name,age):
+        self.name = name
+        self.age = age
+
+p1 = Person("John", 36)
+
+print(p1.name)
+print(p1.age)
 print()
 
-#complex
-x = 1j
-print(type(x))
+print("#methods")
+
+class Person:
+    def __init__(self, name,age):
+        self.name = name
+        self.age = age
+
+    def myfunc(self):
+        print("Hello my name is " + self.name)
+        
+p1 = Person("John", 36)
+p1.myfunc()
 print()
 
-#dict
-z = {"fruit" : "mango", "price" : 5.0}
-print(type(x))
+print("#self")
+
+class Person:
+    def __init__(mysillyobject, name,age): # We can use any name, but neet to be the first param
+        mysillyobject.name = name
+        mysillyobject.age = age
+
+    def myfunc(abc):
+        print("Hello my name is " + abc.name)
+        
+p1 = Person("John", 36)
+p1.myfunc()
 print()
 
-#list
-x = ["apple", "banana", "cherry"]
-print(type(x))
-x[1] = "mango"
-x.append("lemon")
-print(x)
-print(x.__sizeof__())
+print("#Modify Object Properties")
+
+p1 = Person("John", 36)
+p1.name = "Paul"
+p1.myfunc()
 print()
 
-#tuple
-x = ("apple", "banana", "cherry")
-print(type(x))
-print(id(x))
-x += ("lemon",) # We can't update an element, but we can add
-print(x.__sizeof__()) # tuples size is smaller than list
-print(id(x)) # here a new tuple object will be created
-print(x)
-z[x] = "fruits list" # We can't use list as key in a dictionary, only typle 
-print(z)
-print()
+print("#Delete Object Properties")
 
-#range
-x = range(6)
-print(type(x))
-print(list(x))
-print()
+x = "hello"
 
-#set
-x = {"apple", "banana", "cherry"}
-print(type(x))
-x.add("mango")
-print(x)
-print()
+del x
 
-#frozenset
-x = frozenset({"apple", "banana", "cherry"}) # To make set immutable
-print(type(x))
-print(x)
-print()
-
-#bool
-x = True
-print(type(x))
-x = False
-print(x)
-print()
-
-#bytearray
-x = bytearray(5)
-print(type(x))
-print(x)
-print()
-
-#bytes
-x = b"Hello" # Immutable version of bytearray
-print(type(x))
-print(x)
-print()
-
-#memoryview
-x = memoryview(bytes(5))
-print(type(x))
-print(x)
-print()
+#print(x)
