@@ -20,7 +20,7 @@ To have the control of what I learned and how many times I visited a specific to
 
 - [1][Python Interpreter](https://stackoverflow.com/questions/17130975/python-vs-cpython)
 
-  The Python Language was create by [Guido Van Rossum](https://pt.wikipedia.org/wiki/Guido_van_Rossum) that implemented cpython [cpython](https://www.python.org/search/?q=cpython), write in C Language, is the original Python implementation and have all is need to run a Python app. Cpython is not  just a compiler, it has in his process a Compilation phase hat create the bytecode and an Interpreter (or PVM) that will intepretate the bytecode in a [evaluation loop](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop).
+  The Python Language was create by [Guido Van Rossum](https://pt.wikipedia.org/wiki/Guido_van_Rossum) that implemented [cpython](https://www.python.org/search/?q=cpython), write in C Language, is the original Python implementation and have all is need to run a Python app. Cpython is not  just a compiler, it has in his process a Compilation phase hat create the bytecode and an Interpreter (or PVM) that will intepretate the bytecode in a [evaluation loop](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop).
 
 - [1][Python 2 vs Python 3](https://www.interviewbit.com/blog/difference-between-python-2-and-3/)
 
