@@ -68,7 +68,7 @@ To have the control of what I learned and how many times I visited a specific to
 - [1][Classes](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/classes.py)
 - [1][Inheritance](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/inheritance.py)
 - [1][Polimorfism](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/polimorfism.py)
-- Dunder
+- [1][Dunder](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/dunder.py)
 - Methods
 - Decorators
 - Functional Programming
