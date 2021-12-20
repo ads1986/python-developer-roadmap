@@ -1,91 +1,184 @@
-# Font: https://www.w3schools.com/python/python_datatypes.asp
+#Font: https://www.datacamp.com/community/tutorials/decorators-python?utm_source=adwords_ppc&utm_medium=cpc&utm_campaignid=14989519638&utm_adgroupid=127836677279&utm_device=c&utm_keyword=&utm_matchtype=&utm_network=g&utm_adpostion=&utm_creative=278443377095&utm_targetid=aud-299261629574:dsa-429603003980&utm_loc_interest_ms=&utm_loc_physical_ms=1001773&gclid=Cj0KCQiAweaNBhDEARIsAJ5hwberNxp0l51SwegvNP98usSrL9hHKYbXhUp80KCnGRStJeaLfQMjovQaAnkJEALw_wcB
 
-#int
-x = 5
-print(type(x))
+print("#Decorators")
 print()
 
-#string
-x = "Hello World"
-print(type(x))
+print("#Assigning Functions to Variables")
+
+def plus_one(number):
+    return number + 1;
+    
+add_one = plus_one
+print(add_one(5))
+
 print()
 
-#float
-x = 20.5
-print(type(x))
+print("#Defining Functions Inside other Functions")
+
+def plus_one(number):
+    def add_one(number):
+        return number + 1
+    
+    result = add_one(number)
+    return result
+
+print(plus_one(4))
+
 print()
 
-#complex
-x = 1j
-print(type(x))
+print("#Passing Functions as Arguments to other Functions")
+
+def plus_one(number):
+    return number + 1
+    
+def function_call(function):
+    number_to_add = 8
+    return function(number_to_add)
+
+print(function_call(plus_one))
+
 print()
 
-#dict
-z = {"fruit" : "mango", "price" : 5.0}
-print(type(x))
+print("#Functions Returning other Functions")
+
+def hello_function():
+    def say_hi():
+        return "Hi"
+    return say_hi
+    
+hello = hello_function()
+print(hello())
+
 print()
 
-#list
-x = ["apple", "banana", "cherry"]
-print(type(x))
-x[1] = "mango"
-x.append("lemon")
-print(x)
-print(x.__sizeof__())
+print("#Nested Functions have access to the Enclosing Function's Variable Scope")
+
+def print_message(message):
+    "Enclosing Function"
+    def message_sender():
+        "Nested Function"
+        print(message)
+        
+    message_sender()
+
+print_message("Some random message")
+
 print()
 
-#tuple
-x = ("apple", "banana", "cherry")
-print(type(x))
-print(id(x))
-x += ("lemon",) # We can't update an element, but we can add
-print(x.__sizeof__()) # tuples size is smaller than list
-print(id(x)) # here a new tuple object will be created
-print(x)
-z[x] = "fruits list" # We can't use list as key in a dictionary, only typle 
-print(z)
+print("#Creating Decorators")
+
+def uppercase_decorator(function):
+    
+    def wrapper():
+        func = function()
+        make_uppercase = func.upper()
+        return make_uppercase
+        
+    return wrapper
+     
+def say_hi():
+    return 'hello there'
+    
+decorate = uppercase_decorator(say_hi)
+
+print(decorate())
+
 print()
 
-#range
-x = range(6)
-print(type(x))
-print(list(x))
+print("#Creating Decorators (using notation)")
+
+@uppercase_decorator
+def say_hi2():
+    return 'hello there (with notation)'
+
+print(say_hi2())
+
 print()
 
-#set
-x = {"apple", "banana", "cherry"}
-print(type(x))
-x.add("mango")
-print(x)
+print("#Applyin Multiple Decorators to a Single Function")
+
+def split_string(function):
+    def wrapper():
+        func = function()
+        splitted_string = func.split()
+        return splitted_string
+        
+    return wrapper
+
+@split_string
+@uppercase_decorator
+def say_hi3():
+    return 'hello there'
+    
+print(say_hi3())
 print()
 
-#frozenset
-x = frozenset({"apple", "banana", "cherry"}) # To make set immutable
-print(type(x))
-print(x)
+
+print("#Accepting Arguments in Decorator Functions")
+
+def decorator_with_arguments(function):
+    def wrapper_accepting_arguments(arg1, arg2):
+        print("My arguments are: {0}, {1}".format(arg1,arg2))
+        function(arg1,arg2)
+    return wrapper_accepting_arguments
+
+@decorator_with_arguments
+def cities(city_one, city_two):
+    print("Cities I love are {0} and {1}".format(city_one, city_two))
+
+cities("Nairobi", "Accra")
+
 print()
 
-#bool
-x = True
-print(type(x))
-x = False
-print(x)
+
+print("#Accepting Arguments in Decorator Functions")
+
+def a_decorator_passing_arbitrary_arguments(function_to_decorate):
+    def a_wrapper_accepting_arbitrary_arguments(*args,**kwargs):
+        print('The positional arguments are', args)
+        print('The keyword arguments are', kwargs)
+        function_to_decorate(*args)
+    return a_wrapper_accepting_arbitrary_arguments
+    
+@a_decorator_passing_arbitrary_arguments
+def function_with_no_argument(a,b,c):
+    print("No arguments here.")
+    
+function_with_no_argument(1,2,3)
+
+@a_decorator_passing_arbitrary_arguments
+def function_with_keyword_arguments():
+    print("This has shown keyword arguments")
+
+function_with_keyword_arguments(first_name="Anderson", last_name="Martins")
+
 print()
 
-#bytearray
-x = bytearray(5)
-print(type(x))
-print(x)
-print()
 
-#bytes
-x = b"Hello" # Immutable version of bytearray
-print(type(x))
-print(x)
-print()
+print("#Passing Arguments to the Decorator")
 
-#memoryview
-x = memoryview(bytes(5))
-print(type(x))
-print(x)
+def decorator_maker_with_arguments(decorator_arg1, decorator_arg2, decorator_arg3):
+    def decorator(func):
+        def wrapper(function_arg1, function_arg2, function_arg3):
+            "This is the wrapper function"
+            print("The wrapper can access all the variables\n"
+                  "\t- from the decorator maker: {0} {1} {2}\n"
+                  "\t- from the function call: {3} {4} {5}\n"
+                  "and pass them to the decorated function"
+                  .format(decorator_arg1, decorator_arg2, decorator_arg3,
+                          function_arg1, function_arg2, function_arg3))
+            return func(function_arg1, function_arg2, function_arg3)
+            
+        return wrapper
+        
+    return decorator
+    
+pandas = "Pandas"
+@decorator_maker_with_arguments(pandas, "Numpy", "Scikit-learn")
+def decorated_function_with_arguments(function_arg1, function_arg2, function_arg3):
+    print("This is the decorated function and it only knows about its arguments: {0}"
+          " {1}" " {2}".format(function_arg1, function_arg2, function_arg3))
+
+decorated_function_with_arguments(pandas, "Science", "Tools")         
+
 print()
