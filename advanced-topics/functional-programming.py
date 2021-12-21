@@ -1,4 +1,5 @@
-#Font: https://www.geeksforgeeks.org/functional-programming-in-python/
+#Font1: https://www.geeksforgeeks.org/functional-programming-in-python/
+#Font2: https://www.w3schools.com/python/ref_func_zip.asp
 
 print("#Functional Programming")
 print()
@@ -96,6 +97,27 @@ print('The filtered letters are:')
 
 for s in filtered:
     print(s)
+
+print()
+
+print("#Zip")
+
+a = ("John", "Charles", "Mike")
+b = ("Jenny", "Christy", "Monica")
+
+x = zip(a,b)
+
+print(tuple(x))
+
+print()
+
+from functools import reduce
+
+print("#Reduce")
+
+def do_sum(x1, x2): return x1 + x2
+
+print(reduce(do_sum, [1,2,3,4]))
 
 print()
 
