@@ -72,7 +72,7 @@ To have the control of what I learned and how many times I visited a specific to
 - [1][Decorators]()
 - [1][Functional Programming](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/functional-programming.py)
 - [1][File I/O](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/file-io.py)
-- Regex
+- [1][Regex](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/regex.py)
 - Import
 - Debugging
 - Iterators
