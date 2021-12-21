@@ -71,7 +71,6 @@ To have the control of what I learned and how many times I visited a specific to
 - [1][Dunder](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/dunder.py)
 - [1][Decorators]()
 - [1][Functional Programming](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/functional-programming.py)
-- [1][Lambda Functions](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/lambda.py)
 - Map, filter, zip, reduce
 - File I/O
 - Regex
