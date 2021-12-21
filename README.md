@@ -71,7 +71,7 @@ To have the control of what I learned and how many times I visited a specific to
 - [1][Dunder](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/dunder.py)
 - [1][Decorators]()
 - [1][Functional Programming](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/functional-programming.py)
-- File I/O
+- [1][File I/O](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/file-io.py)
 - Regex
 - Import
 - Debugging
