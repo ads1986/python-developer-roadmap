@@ -1,91 +1,124 @@
-# Font: https://www.w3schools.com/python/python_datatypes.asp
+#Font: https://www.geeksforgeeks.org/functional-programming-in-python/
 
-#int
-x = 5
-print(type(x))
+print("#Functional Programming")
 print()
 
-#string
-x = "Hello World"
-print(type(x))
+print("#Pure Function")
+
+def pure_func(List):
+    
+    New_List = []
+    
+    for i in List:
+        New_List.append(i**2)
+        
+    return New_List
+    
+Original_List = [1,2,3,4]
+Modified_List = pure_func(Original_List)
+
+print("Original List:", Original_List)
+print("Modified List: ", Modified_List)
+
 print()
 
-#float
-x = 20.5
-print(type(x))
+print("#Recursion")
+
+def Sum(L, i, n, count):
+
+    if n <= i:
+        return count
+    
+    count += L[i]
+    
+    count = Sum(L, i + 1, n, count)
+    
+    return count
+    
+L = [1,2,3,4,5]
+count = 0
+n = len(L)
+print(Sum(L, 0, n, count))    
+
 print()
 
-#complex
-x = 1j
-print(type(x))
+print("#First-Class Functions")
+
+def shout(text):
+    return text.upper()
+    
+def whisper(text):
+    return text.lower()
+    
+def greet(func):
+    # storing the function in a variable
+    greeting = func("Hi, I am create by a function passed as an argument")
+    print(greeting)
+    
+greet(shout)
+greet(whisper)
+
 print()
 
-#dict
-z = {"fruit" : "mango", "price" : 5.0}
-print(type(x))
+print("#Built-in Higher-order functions")
+
+print("#Map")
+
+def addition(n):
+    return n + n
+
+numbers = (1, 2, 3, 4)
+results = map(addition, numbers)
+
+print(results)
+
+for result in results:
+    print(result, end = " ")
+
 print()
 
-#list
-x = ["apple", "banana", "cherry"]
-print(type(x))
-x[1] = "mango"
-x.append("lemon")
-print(x)
-print(x.__sizeof__())
+print("#Filter")
+
+def fun(variable):
+
+    letters = ['a', 'e', 'i', 'o', 'u']
+    
+    if (variable in letters):
+        return True
+    else:
+        return False
+        
+sequence = ['g', 'e', 'e', 'e', 'j', 'k', 's']
+
+filtered = filter(fun, sequence)
+
+print('The filtered letters are:')
+
+for s in filtered:
+    print(s)
+
 print()
 
-#tuple
-x = ("apple", "banana", "cherry")
-print(type(x))
-print(id(x))
-x += ("lemon",) # We can't update an element, but we can add
-print(x.__sizeof__()) # tuples size is smaller than list
-print(id(x)) # here a new tuple object will be created
-print(x)
-z[x] = "fruits list" # We can't use list as key in a dictionary, only typle 
-print(z)
+print("#Lambda")
+
+cube = lambda x: x*x*x
+print(cube(7))
+
+L = [1,3, 2, 4, 5, 6]
+is_even = [x for x in L if x % 2 == 0]
+
+print(is_even)
+
 print()
 
-#range
-x = range(6)
-print(type(x))
-print(list(x))
+#immutable[1] = 'K'
+
 print()
 
-#set
-x = {"apple", "banana", "cherry"}
-print(type(x))
-x.add("mango")
-print(x)
-print()
+print("#Immutability")
 
-#frozenset
-x = frozenset({"apple", "banana", "cherry"}) # To make set immutable
-print(type(x))
-print(x)
-print()
+immutable = "GeeksforGeeks"
 
-#bool
-x = True
-print(type(x))
-x = False
-print(x)
-print()
+#immutable[1] = 'K'
 
-#bytearray
-x = bytearray(5)
-print(type(x))
-print(x)
-print()
-
-#bytes
-x = b"Hello" # Immutable version of bytearray
-print(type(x))
-print(x)
-print()
-
-#memoryview
-x = memoryview(bytes(5))
-print(type(x))
-print(x)
 print()
