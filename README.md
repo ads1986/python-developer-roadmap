@@ -51,17 +51,17 @@ To have the control of what I learned and how many times I visited a specific to
 
 ### 2.2. Language Basics
 
-- [1][Variables](https://github.com/ads1986/python-developer-roadmap/blob/main/language-basics/variables.py)
-- [1][Data Types and their Operations and Use](https://github.com/ads1986/python-developer-roadmap/blob/main/language-basics/datatypes.py)
-- [1][Numbers, Operators, Operator Precedence](https://github.com/ads1986/python-developer-roadmap/blob/main/language-basics/numbers-operators-precedence.py)
-- [1][Type Conversion](https://github.com/ads1986/python-developer-roadmap/edit/main/language-basics/type-conversion.py)
-- [1][Identation](https://github.com/ads1986/python-developer-roadmap/edit/main/language-basics/identation.py)
-- [1][Conditionals - If, Else, Else if, Truthy, Falsey](https://github.com/ads1986/python-developer-roadmap/blob/main/language-basics/conditionals.py)
-- [1][Loops: for, while, loop control statements (break, continue, etc)](https://github.com/ads1986/python-developer-roadmap/blob/main/language-basics/loops.py)
-- [1][Functions: scope, parameters, arguments, return](https://github.com/ads1986/python-developer-roadmap/blob/main/language-basics/functions.py)
-- [1][Builtin Functions](https://github.com/ads1986/python-developer-roadmap/blob/main/language-basics/builtin-functions.py)
-- [1][Exceptions](https://github.com/ads1986/python-developer-roadmap/blob/main/language-basics/exceptions.py)
-- [1][Commenting: single-line, multi-line, docstrings](https://github.com/ads1986/python-developer-roadmap/blob/main/language-basics/commenting.py)
+  - [1][Variables](https://github.com/ads1986/python-developer-roadmap/blob/main/language-basics/variables.py)
+  - [1][Data Types and their Operations and Use](https://github.com/ads1986/python-developer-roadmap/blob/main/language-basics/datatypes.py)
+  - [1][Numbers, Operators, Operator Precedence](https://github.com/ads1986/python-developer-roadmap/blob/main/language-basics/numbers-operators-precedence.py)
+  - [1][Type Conversion](https://github.com/ads1986/python-developer-roadmap/edit/main/language-basics/type-conversion.py)
+  - [1][Identation](https://github.com/ads1986/python-developer-roadmap/edit/main/language-basics/identation.py)
+  - [1][Conditionals - If, Else, Else if, Truthy, Falsey](https://github.com/ads1986/python-developer-roadmap/blob/main/language-basics/conditionals.py)
+  - [1][Loops: for, while, loop control statements (break, continue, etc)](https://github.com/ads1986/python-developer-roadmap/blob/main/language-basics/loops.py)
+  - [1][Functions: scope, parameters, arguments, return](https://github.com/ads1986/python-developer-roadmap/blob/main/language-basics/functions.py)
+  - [1][Builtin Functions](https://github.com/ads1986/python-developer-roadmap/blob/main/language-basics/builtin-functions.py)
+  - [1][Exceptions](https://github.com/ads1986/python-developer-roadmap/blob/main/language-basics/exceptions.py)
+  - [1][Commenting: single-line, multi-line, docstrings](https://github.com/ads1986/python-developer-roadmap/blob/main/language-basics/commenting.py)
 
 ## 3. Advanced Topics
 
