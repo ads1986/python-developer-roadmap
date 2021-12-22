@@ -69,7 +69,7 @@ To have the control of what I learned and how many times I visited a specific to
   - [1][Inheritance](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/inheritance.py)
   - [1][Polimorfism](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/polimorfism.py)
   - [1][Dunder](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/dunder.py)
-  - [1][Decorators]()
+  - [1][Decorators](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/decorators.py)
   - [1][Functional Programming](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/functional-programming.py)
   - [1][File I/O](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/file-io.py)
   - [1][Regex](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/regex.py)
@@ -77,10 +77,10 @@ To have the control of what I learned and how many times I visited a specific to
   - [1][Debugging](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/debugging.py)
   - [1][Async/Await](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/await.py)
   - [1]Virtual Environments
--
-  A Virtual Environment is a Python's resource that helps create a isolated environment with specific dependencies. For example we can create an environment including Django v1.10 dependency for a particular project, without afecting the default dependencies or other Virtual Environments.
 
-  Follow this steps to create and activate an environment :
+    A Virtual Environment is a Python's resource that helps create a isolated environment with specific dependencies. For example we can create an environment including Django v1.10 dependency for a particular project, without afecting the default dependencies or other Virtual Environments.
+
+    Follow this steps to create and activate an environment :
   
      ```bash
         $ pip install virtualenv
@@ -88,13 +88,13 @@ To have the control of what I learned and how many times I visited a specific to
         $ my_name\Scripts\activate
      ```
 
-  Install a dependency : 
+    Install a dependency : 
 
      ```bash
         $ pip install Django==1.10
      ```
 
-   Deactivate the environment :
+    Deactivate the environment :
 
     ```bash
     $ my_name\Scripts\deactivate
