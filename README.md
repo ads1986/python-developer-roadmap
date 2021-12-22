@@ -104,8 +104,8 @@ To have the control of what I learned and how many times I visited a specific to
 
 ### 3.1. Modules
 
-- Builtin
-- Custom
+- [1][Builtin](https://docs.python.org/3/py-modindex.html)
+- [1][Custom](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/module_custom.py)
 
 ## 4. Package Managers
 
