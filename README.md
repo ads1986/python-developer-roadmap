@@ -74,7 +74,7 @@ To have the control of what I learned and how many times I visited a specific to
 - [1][File I/O](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/file-io.py)
 - [1][Regex](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/regex.py)
 - [1][Iterators](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/iterators.py)
-- Debugging
+- [1][Debugging](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/debugging.py)
 - Await Expression
 - Virtual Environments
 
