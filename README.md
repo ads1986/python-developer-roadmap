@@ -76,7 +76,27 @@ To have the control of what I learned and how many times I visited a specific to
 - [1][Iterators](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/iterators.py)
 - [1][Debugging](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/debugging.py)
 - [1][Async/Await](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/await.py)
-- Virtual Environments
+- [1]Virtual Environments
+  A Virtual Environment is a Python's resource that helps create a isolated environment with specific dependencies. For example we can create an environment including Django v1.10 dependency for a particular project, without afecting the default dependencies or other Virtual Environments.
+
+  Follow this steps to create and activate an environment :
+  
+     ```bash
+        $ pip install virtualenv
+        $ virtualenv my_name
+        $ my_name\Scripts\activate
+        
+  Install a dependency : 
+  
+     ```bash
+        $ pip install Django==1.10
+
+   Deactivate the environment :
+   
+    ```bash
+    $ my_name\Scripts\deactivate
+        
+> :warning: **Configurations**: In this example I'm using Windows 10 and Python 3.10.0
 
 ### 3.1. Modules
 
