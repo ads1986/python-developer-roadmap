@@ -85,17 +85,20 @@ To have the control of what I learned and how many times I visited a specific to
         $ pip install virtualenv
         $ virtualenv my_name
         $ my_name\Scripts\activate
-        
+     ```
+
   Install a dependency : 
-  
+
      ```bash
         $ pip install Django==1.10
+     ```
 
    Deactivate the environment :
-   
+
     ```bash
     $ my_name\Scripts\deactivate
-        
+     ```
+
 > :warning: **Configurations**: In this example I'm using Windows 10 and Python 3.10.0
 
 ### 3.1. Modules
