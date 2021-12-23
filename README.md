@@ -121,9 +121,11 @@ To have the control of what I learned and how many times I visited a specific to
 
 ### 5.1. Synchronous
 
-- Django
-- Flask
-- Pyrami
+#### 5.1.1. Django
+
+- ASGI
+
+  
 
 ### 5.2. Asynchronous
 
