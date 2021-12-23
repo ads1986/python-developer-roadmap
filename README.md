@@ -109,9 +109,10 @@ To have the control of what I learned and how many times I visited a specific to
 
 ## 4. Package Managers
 
-- PyPI
-  Python Package Index (Pypi) is a repository of software for the Python Language.
-  
+- [1][PyPI](https://pypi.org/)
+
+    Python Package Index (Pypi) is a repository of software for the Python Language. In this repository we are able get dependency librarys (example Django) need for our projects.
+
 - Pip
 
 ## 5. Learn a Framework
