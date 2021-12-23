@@ -113,7 +113,9 @@ To have the control of what I learned and how many times I visited a specific to
 
     Python Package Index (Pypi) is a repository of software for the Python Language. In this repository we are able get dependency librarys (example Django) need for our projects.
 
-- Pip
+- [1][Pip](https://pypi.org/project/pip/)
+
+    The Python Package Installer (pip) is a package manager that allow us install any Python module (or dependency) that is provided by a repository (example PyPi).
 
 ## 5. Learn a Framework
 
