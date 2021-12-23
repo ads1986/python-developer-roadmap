@@ -110,6 +110,8 @@ To have the control of what I learned and how many times I visited a specific to
 ## 4. Package Managers
 
 - PyPI
+  Python Package Index (Pypi) is a repository of software for the Python Language.
+  
 - Pip
 
 ## 5. Learn a Framework
