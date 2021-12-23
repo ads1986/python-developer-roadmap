@@ -76,7 +76,7 @@ To have the control of what I learned and how many times I visited a specific to
   - [1][Iterators](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/iterators.py)
   - [1][Debugging](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/debugging.py)
   - [1][Async/Await](https://github.com/ads1986/python-developer-roadmap/blob/main/advanced-topics/await.py)
-  - [1]Virtual Environments
+  - [1][Virtual Environments](https://docs.python.org/3/tutorial/venv.html)
 
     A Virtual Environment is a Python's resource that helps create a isolated environment with specific dependencies. For example we can create an environment including Django v1.10 dependency for a particular project, without afecting the default dependencies or other Virtual Environments.
 
