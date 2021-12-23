@@ -125,7 +125,9 @@ To have the control of what I learned and how many times I visited a specific to
 
 - ASGI
 
+- WSGI
   
+- runserver
 
 ### 5.2. Asynchronous
 
