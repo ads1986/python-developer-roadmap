@@ -125,10 +125,12 @@ To have the control of what I learned and how many times I visited a specific to
 
 Django is a web framework based on Python that make possible create web apps . Is a powerful framework, we can build an app since database connection, to backend business rules  and finally rich html pages to deliverer to the customer the complete functionality.
 
+- WSGI
+
+   Web Server Gateway Interface is a specification that rules the way the app communicates with the web server. The request is handle by the web server,  following the WSGI specification, will call a specific function in the app that will deal with logic to return the response.
+
 - ASGI
 
-- WSGI
-  
 - runserver
 
 #### 5.1.1.1. Django Rest Framework
