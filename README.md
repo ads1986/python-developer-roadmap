@@ -134,17 +134,11 @@ To have the control of what I learned and how many times I visited a specific to
 ### 5.2. Asynchronous
 
 - aiohttp
-- Sanic
-- gevent
-- Tornado
 - FastAPI
 
 ## 6. Testing your Apps
 
 - unittest / pyUnit
-- pytest
-- doctest
-- nose
 
 ## 7. Machine Learning/Data Science
 
