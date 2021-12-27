@@ -123,6 +123,8 @@ To have the control of what I learned and how many times I visited a specific to
 
 #### 5.1.1. Django
 
+Django is a web framework based on Python that make possible create web apps . Is a powerful framework, we can build an app since database connection, to backend business rules  and finally rich html pages to deliverer to the customer the complete functionality.
+
 - ASGI
 
 - WSGI
