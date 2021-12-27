@@ -139,18 +139,3 @@ To have the control of what I learned and how many times I visited a specific to
 ## 6. Testing your Apps
 
 - unittest / pyUnit
-
-## 7. Machine Learning/Data Science
-
-- Tensorflow
-- PyTorch
-- Keras
-- Scikit-learn
-- Numpy
-- Pandas
-- ciPy
-- Matplotlib
-- Seaborn
-- Neural Networks
-- Machine Learning Algorithms
-- Data
