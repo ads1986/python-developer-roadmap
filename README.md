@@ -137,6 +137,7 @@ To have the control of what I learned and how many times I visited a specific to
 - Sanic
 - gevent
 - Tornado
+- FastAPI
 
 ## 6. Testing your Apps
 
